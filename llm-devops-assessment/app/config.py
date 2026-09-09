@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     REDIS_HOST: str = "redis"
     REDIS_PORT: int = 6379
 
-    GEMINI_API_KEY: str = "AIzaSyBKcKFi_kqEaS8UT3dXUn_cyp3hi8BpNSM"
+    GEMINI_API_KEY: str = "mock-key"
 
     class Config:
         env_file = ".env"
